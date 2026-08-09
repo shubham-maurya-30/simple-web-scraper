@@ -1,26 +1,43 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 import time
 
 
 def scrape_books(url, status_callback=None):
 
-    driver = webdriver.Chrome()
+    chrome_options = Options()
+
+    # Run Chrome without opening a visible browser window
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--window-size=1920,1080")
+
+    driver = webdriver.Chrome(
+        options=chrome_options
+    )
 
     try:
+
         if status_callback:
             status_callback("🌐 Opening website...")
 
         driver.get(url)
 
         if status_callback:
-            status_callback("✓ Website opened successfully")
+            status_callback(
+                "✓ Website opened successfully"
+            )
 
         # Give the page a moment to finish loading
         time.sleep(2)
 
         if status_callback:
-            status_callback("🔎 Looking for books...")
+            status_callback(
+                "🔎 Looking for books..."
+            )
 
         books = driver.find_elements(
             By.CLASS_NAME,
@@ -28,8 +45,11 @@ def scrape_books(url, status_callback=None):
         )
 
         if not books:
+
             if status_callback:
-                status_callback("⚠️ No books found on this page.")
+                status_callback(
+                    "⚠️ No books found on this page."
+                )
 
             return []
 
@@ -41,7 +61,9 @@ def scrape_books(url, status_callback=None):
         data = []
 
         if status_callback:
-            status_callback("📥 Extracting data...")
+            status_callback(
+                "📥 Extracting data..."
+            )
 
         for book in books:
 
@@ -71,4 +93,5 @@ def scrape_books(url, status_callback=None):
         return data
 
     finally:
+
         driver.quit()
