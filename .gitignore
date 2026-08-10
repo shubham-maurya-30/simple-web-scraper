@@ -2,3 +2,4 @@ history.json
 __pycache__/
 *.pyc
 desktop.ini
+Thumbs.db
