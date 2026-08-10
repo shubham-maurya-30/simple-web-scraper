@@ -87,19 +87,19 @@ Soumission	£50.10
 
 The main interface allows users to enter a website URL and select from suggested websites.
 
-![Main Interface](screenshots/main-interface.png)
+![Main Interface](https://github.com/shubham-maurya-30/simple-web-scraper/blob/main/screenshots/main-interface.png)
 
 ### 🔄 Scraping Activity
 
 The application displays the scraping process and shows the extracted book data.
 
-![Scraping Activity](screenshots/scraping-activity.png)
+![Scraping Activity](./screenshots/scraping-activity.png)
 
 ### 📊 Scraped Results
 
 The extracted book titles and prices are displayed in a table. Users can also save the data as a CSV file.
 
-![Scraped Results](screenshots/scraped-results.png)
+![Scraped Results](./screenshots/scraped-results.png)
 
 
 🎯 Project Purpose
