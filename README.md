@@ -31,7 +31,8 @@ This application allows users to enter a website URL, scrape book data, view the
 - Selenium
 - Streamlit
 - Pandas
-
+  
+```markdown
 ## 📁 Project Structure
 
 ```text
@@ -43,10 +44,8 @@ simple-web-scraper/
 ├── packages.txt
 ├── README.md
 └── .gitignore
-```text
-
-```markdown
-## ⚙️ How It Works
+```
+⚙️ How It Works
 User enters a website URL.
 Selenium opens the website.
 The scraper searches for available book elements.
@@ -80,6 +79,7 @@ A Light in the Attic	£51.77
 Tipping the Velvet	£53.74
 Soumission	£50.10
 
+```markdown
 ## 📸 Screenshots
 
 ### 🏠 Main Interface
