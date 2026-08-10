@@ -1,29 +1,27 @@
 # 🕷️ Simple Web Scraper
 
-A simple web scraping application built using Python, Selenium, Streamlit, and Pandas.
+A simple and user-friendly web scraping application built with **Python, Selenium, Pandas, and Streamlit**.
 
-This application allows users to enter a website URL, scrape book data, view the results in a user-friendly interface, and save the scraped data as a CSV file.
+The application allows users to enter a website URL and extract book titles and prices using Selenium. The scraped data is displayed in a clean table and can be saved as a CSV file.
 
-## 🌐 Live Demo
+## 🚀 Live Demo
 
-[Open Live Web Scraper](https://simple-web-scraper-moifiurzbyntcaxv7mwfgv.streamlit.app/)
+You can try the application online:
 
-## 📂 GitHub Repository
-
-[View Source Code](https://github.com/shubham-maurya-30/simple-web-scraper)
+https://simple-web-scraper-moifiurzbyntcaxv7mwfgv.streamlit.app/
 
 ## ✨ Features
 
-- 🌐 Enter a website URL
-- 📚 Suggested website for testing
-- 🔍 Scrape book data using Selenium
+- 🌐 Enter any website URL
+- 🔎 Scrape book data using Selenium
+- 📚 Extract book titles
+- 💰 Extract book prices
 - 📊 Display scraped data in a table
-- 🔄 Show scraping activity
-- 📜 Maintain scraping history
-- ❌ Delete individual history entries
 - 💾 Save scraped data as CSV
-- 🗑️ Clear scraped results
-- 📱 Works on desktop and mobile browsers
+- 🔄 Real-time scraping activity/status
+- 🕘 Scraping history
+- 📱 Works on desktop and mobile
+- ☁️ Deployed using Streamlit
 
 ## 🛠️ Technologies Used
 
@@ -31,55 +29,8 @@ This application allows users to enter a website URL, scrape book data, view the
 - Selenium
 - Streamlit
 - Pandas
-  
-```markdown
-## 📁 Project Structure
+- Chrome WebDriver
 
-```text
-simple-web-scraper/
-│
-├── app.py
-├── scraper.py
-├── requirements.txt
-├── packages.txt
-├── README.md
-└── .gitignore
-```
-⚙️ How It Works
-User enters a website URL.
-Selenium opens the website.
-The scraper searches for available book elements.
-Book title and price are extracted.
-The scraped data is displayed in the Streamlit interface.
-The user can save the data as a CSV file.
-The website is added to scraping history.
-▶️ Run Locally
-
-Clone the repository:
-
-git clone https://github.com/shubham-maurya-30/simple-web-scraper.git
-
-Open the project folder:
-
-cd simple-web-scraper
-
-Install the required Python packages:
-
-pip install -r requirements.txt
-
-Run the application:
-
-streamlit run app.py
-📊 Example Output
-
-The scraper extracts information such as:
-
-Title	Price
-A Light in the Attic	£51.77
-Tipping the Velvet	£53.74
-Soumission	£50.10
-
-```markdown
 ## 📸 Screenshots
 
 ### 🏠 Main Interface
@@ -96,29 +47,33 @@ The application displays the scraping process and shows the extracted book data.
 
 ### 📊 Scraped Results
 
-The extracted book titles and prices are displayed in a table. Users can also save the data as a CSV file.
+The extracted book titles and prices are displayed in a table.
 
 ![Scraped Results](screenshots/scraped-results.png)
 
-🎯 Project Purpose
+## ⚙️ How It Works
 
-This project was created to practice:
+1. User enters a website URL.
+2. Selenium opens the website.
+3. The scraper searches for available book elements.
+4. Book titles and prices are extracted.
+5. The extracted data is stored in a Pandas DataFrame.
+6. The results are displayed in the Streamlit interface.
+7. Users can save the scraped data as a CSV file.
 
-Web scraping
-Selenium browser automation
-Python programming
-Streamlit application development
-Data handling with Pandas
-Git and GitHub
-Cloud deployment
-🚀 Deployment
+## 📁 Project Structure
 
-The application is deployed using Streamlit Community Cloud.
-
-Launch the Live App
-
-👨‍💻 Author
-
-Shubham Maurya
-
-GitHub Profile
+```text
+simple-web-scraper/
+│
+├── app.py
+├── scraper.py
+├── requirements.txt
+├── packages.txt
+├── README.md
+├── .gitignore
+│
+└── screenshots/
+    ├── main-interface.png
+    ├── scraping-activity.png
+    └── scraped-results.png
