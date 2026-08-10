@@ -87,7 +87,7 @@ Soumission	£50.10
 
 The main interface allows users to enter a website URL and select from suggested websites.
 
-![Main Interface](./screenshots/main-interface.png)
+![Main Interface](screenshots/main-interface.png)
 
 ### 🔄 Scraping Activity
 
