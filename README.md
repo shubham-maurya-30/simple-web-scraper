@@ -77,3 +77,69 @@ simple-web-scraper/
     ├── main-interface.png
     ├── scraping-activity.png
     └── scraped-results.png
+
+
+💻 Run Locally
+1. Clone the repository
+git clone https://github.com/shubham-maurya-30/simple-web-scraper.git
+2. Open the project folder
+cd simple-web-scraper
+3. Create a virtual environment
+python -m venv venv
+4. Activate the virtual environment
+
+On Windows:
+
+venv\Scripts\activate
+5. Install dependencies
+pip install -r requirements.txt
+6. Run the Streamlit application
+streamlit run app.py
+
+The application will open in your browser.
+
+📦 Dependencies
+
+The project uses the following Python libraries:
+
+streamlit
+selenium
+pandas
+🌐 Example Website
+
+This project was tested with:
+
+https://books.toscrape.com/
+
+The application can extract book titles and prices from the website.
+
+📊 Example Output
+
+Example scraped data:
+
+Title	Price
+A Light in the Attic	£51.77
+Tipping the Velvet	£53.74
+Soumission	£50.10
+Sharp Objects	£47.82
+🎯 Project Purpose
+
+This project was created to practice and demonstrate:
+
+Web scraping with Selenium
+Python programming
+Data extraction
+Pandas data handling
+Streamlit application development
+Git and GitHub
+Cloud deployment
+👨‍💻 Author
+
+Shubham Maurya
+
+GitHub:
+https://github.com/shubham-maurya-30
+
+📄 License
+
+This project is created for educational and portfolio purposes.
