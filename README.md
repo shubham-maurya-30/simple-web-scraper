@@ -80,27 +80,25 @@ A Light in the Attic	£51.77
 Tipping the Velvet	£53.74
 Soumission	£50.10
 
-
 ## 📸 Screenshots
 
 ### 🏠 Main Interface
 
 The main interface allows users to enter a website URL and select from suggested websites.
 
-![Main Interface](screenshots/main-interface.png)
+<img src="https://raw.githubusercontent.com/shubham-maurya-30/simple-web-scraper/main/screenshots/main-interface.png" alt="Main Interface" width="900">
 
 ### 🔄 Scraping Activity
 
 The application displays the scraping process and shows the extracted book data.
 
-![Scraping Activity](./screenshots/scraping-activity.png)
+<img src="https://raw.githubusercontent.com/shubham-maurya-30/simple-web-scraper/main/screenshots/scraping-activity.png" alt="Scraping Activity" width="900">
 
 ### 📊 Scraped Results
 
 The extracted book titles and prices are displayed in a table. Users can also save the data as a CSV file.
 
-![Scraped Results](./screenshots/scraped-results.png)
-
+<img src="https://raw.githubusercontent.com/shubham-maurya-30/simple-web-scraper/main/screenshots/scraped-results.png" alt="Scraped Results" width="900">
 
 🎯 Project Purpose
 
