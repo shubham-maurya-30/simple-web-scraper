@@ -43,10 +43,10 @@ simple-web-scraper/
 ├── packages.txt
 ├── README.md
 └── .gitignore
+```text
 
-
-
-⚙️ How It Works
+```markdown
+## ⚙️ How It Works
 User enters a website URL.
 Selenium opens the website.
 The scraper searches for available book elements.
@@ -86,19 +86,19 @@ Soumission	£50.10
 
 The main interface allows users to enter a website URL and select from suggested websites.
 
-<img src="https://raw.githubusercontent.com/shubham-maurya-30/simple-web-scraper/main/screenshots/main-interface.png" alt="Main Interface" width="900">
+![Main Interface](screenshots/main-interface.png)
 
 ### 🔄 Scraping Activity
 
 The application displays the scraping process and shows the extracted book data.
 
-<img src="https://raw.githubusercontent.com/shubham-maurya-30/simple-web-scraper/main/screenshots/scraping-activity.png" alt="Scraping Activity" width="900">
+![Scraping Activity](screenshots/scraping-activity.png)
 
 ### 📊 Scraped Results
 
 The extracted book titles and prices are displayed in a table. Users can also save the data as a CSV file.
 
-<img src="https://raw.githubusercontent.com/shubham-maurya-30/simple-web-scraper/main/screenshots/scraped-results.png" alt="Scraped Results" width="900">
+![Scraped Results](screenshots/scraped-results.png)
 
 🎯 Project Purpose
 
