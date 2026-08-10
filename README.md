@@ -79,6 +79,29 @@ Title	Price
 A Light in the Attic	£51.77
 Tipping the Velvet	£53.74
 Soumission	£50.10
+
+
+## 📸 Screenshots
+
+### 🏠 Main Interface
+
+The main interface allows users to enter a website URL and select from suggested websites.
+
+![Main Interface](screenshots/main-interface.png)
+
+### 🔄 Scraping Activity
+
+The application displays the scraping process and shows the extracted book data.
+
+![Scraping Activity](screenshots/scraping-activity.png)
+
+### 📊 Scraped Results
+
+The extracted book titles and prices are displayed in a table. Users can also save the data as a CSV file.
+
+![Scraped Results](screenshots/scraped-results.png)
+
+
 🎯 Project Purpose
 
 This project was created to practice:
